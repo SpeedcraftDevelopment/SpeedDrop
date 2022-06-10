@@ -1,0 +1,7 @@
+main: dp.speedcraft.main.Main
+name: Speedcraft_Drop_OS
+version: 1.0
+author: Speedcraft_Team
+
+commands:
+  drop:
