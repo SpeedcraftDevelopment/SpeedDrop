@@ -11,7 +11,6 @@ import org.bukkit.event.inventory.InventoryClickEvent;
 
 import java.util.UUID;
 
-public class onInventoryClick {
 
     public class onInventoryClick implements Listener {
 
@@ -80,6 +79,4 @@ public class onInventoryClick {
                 break;
             }
         }
-
-    }
-}
+   }
