@@ -21,10 +21,10 @@ public class Redstone {
     public static ItemStack redstone(Player p) {
         UUID uuid = p.getUniqueId();
 
-        ItemStack redstone = new ItemStack(Material.COAL);
+        ItemStack redstone = new ItemStack(Material.REDSTONE);
         ItemMeta redstoneM = redstone.getItemMeta();
 
-        redstoneM.setDisplayName(ChatColor.LIGHT_PURPLE + "Coal");
+        redstoneM.setDisplayName(ChatColor.LIGHT_PURPLE + "Redstone");
         ArrayList<String> lore = new ArrayList<String>();
 
         lore.add(" ");
@@ -42,4 +42,4 @@ public class Redstone {
         return redstone;
     }
 }
-}
+
